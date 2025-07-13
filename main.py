@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     print("\nВведите свои коорdнаты:")
     try:
-        user_lat = float(input("Введите широту (например, 55.75): "))
+        user_lat = float(input("Введddите широту (например, 55.75): "))
         user_lon = float(input("Введите долготу (например, 37.61): "))
         get_weather(user_lat, user_lon)
     except ValueError:
